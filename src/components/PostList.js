@@ -18,7 +18,12 @@ const PostList = () => {
         <>
             <h2>Liste des posts</h2>
             {
-                posts.length > 0 && posts.map(post => <div key={post.id}> {post.title}</div>)
+                (posts.length > 0)?(
+                    posts.map(post => <div key={post.id}> {post.title}</div>)
+                ):
+                (
+                    <h3>Loading</h3>
+                    )
             }
 
         </>
