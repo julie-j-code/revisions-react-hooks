@@ -8,8 +8,17 @@ const MailContextProvider = (props) => {
     { id: 2, title: "This is a spam", content: "We want to sell you something"}
   ]);
 
+  const deleteMessage = (message) => {
+    // si l'id du message couramment itéré 
+    // est différent de l'id passé en paramètre
+    // on garde ce message
+    setMessages(messages.filter(msg => msg.id !== message.id));
+  };
+
   return (
-    <MailContext.Provider value={ messages}>
+    // on passe maintenant à value un objet
+    // {messages : messages, deleteMessage : deleteMessage}
+    <MailContext.Provider value={{ messages, deleteMessage}}>
       {props.children}
     </MailContext.Provider>
   );
