@@ -14,6 +14,22 @@ const PostList = () => {
                 setPosts(result.data);
             })
     }, []);
+// pour illustrer l'utilisation de  plusieurs useEffect() par fonctionnalité
+const [counter, setCounter] = useState(0);
+const [counterDisabled, setCounterDisabled] = useState(false);
+useEffect(() => {
+    // fonction qui sera exécutée chaque fois que la valeur de compteur est modifiée
+    // puisque counter, rentré en second paramètre est une dépendance
+    if (counter ===3){
+        setCounterDisabled(true);
+    }
+}, [counter]);
+
+const resetCounter = ()=>{
+    setCounter(0);
+    setCounterDisabled(false);
+}
+
     return (
         <>
             <h2>Liste des posts</h2>
@@ -25,6 +41,11 @@ const PostList = () => {
                     <h3>Loading</h3>
                     )
             }
+
+            <hr />
+            <h3>Compteur : {counter}</h3>
+            <button onClick={(e)=>setCounter(counter+1)} disabled={counterDisabled}>incrémenter le compteur</button> 
+            <button onClick={resetCounter}>Reset</button>      
 
         </>
     );
