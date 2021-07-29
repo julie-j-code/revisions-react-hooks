@@ -1,6 +1,7 @@
 import './App.css';
 import FrameworkList from './components/FrameworkList';
 import Like from './components/Like';
+import PostList from './components/PostList';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
         <Like/>
         <p>deuxième exemple</p>
         <FrameworkList/>
+        <p>3ème exemple</p>
+        <PostList/>
+
 
       </header>
     </div>
