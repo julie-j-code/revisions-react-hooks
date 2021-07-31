@@ -4,6 +4,7 @@ import FrameworkList from './components/FrameworkList';
 import KeyCode from './components/Keycode';
 import LevelA from './components/LevelA';
 import Like from './components/Like';
+import Login from './components/Login';
 import PostList from './components/PostList';
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
         </MailContextProvider>
         <p>5ème exemple : l'écoute d'événements clavier</p>
         <KeyCode />
-
+        <p>6ème exemple : gérer le focus à l'aide de useRef()</p>
+        <Login />
       </header>
     </div>
   );
