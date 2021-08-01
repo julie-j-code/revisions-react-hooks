@@ -6,6 +6,7 @@ import LevelA from './components/LevelA';
 import Like from './components/Like';
 import Login from './components/Login';
 import PostList from './components/PostList';
+import Pot from './components/Pot';
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
         <KeyCode />
         <p>6ème exemple : gérer le focus à l'aide de useRef()</p>
         <Login />
+        <p>7ème exemple : Application de côtisation pour un pot de départ</p>
+        <Pot/>
       </header>
     </div>
   );
