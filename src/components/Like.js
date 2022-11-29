@@ -4,7 +4,7 @@ const Like = () => {
     // pour gérer l'état
     const [nbIfLikes, setNbOfLikes] = useState(0);
     return ( 
-        <div>
+        <div className='row'>
             {nbIfLikes}
             <button onClick={()=>setNbOfLikes(nbIfLikes+1)}>Like</button>
         </div>
