@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/hooks-practice/static/css/main.161ba03c.chunk.css",
-    "main.js": "/hooks-practice/static/js/main.ba358a77.chunk.js",
-    "main.js.map": "/hooks-practice/static/js/main.ba358a77.chunk.js.map",
-    "runtime-main.js": "/hooks-practice/static/js/runtime-main.ab89730a.js",
-    "runtime-main.js.map": "/hooks-practice/static/js/runtime-main.ab89730a.js.map",
-    "static/js/2.a741b2ea.chunk.js": "/hooks-practice/static/js/2.a741b2ea.chunk.js",
-    "static/js/2.a741b2ea.chunk.js.map": "/hooks-practice/static/js/2.a741b2ea.chunk.js.map",
-    "static/js/3.2e12f3d6.chunk.js": "/hooks-practice/static/js/3.2e12f3d6.chunk.js",
-    "static/js/3.2e12f3d6.chunk.js.map": "/hooks-practice/static/js/3.2e12f3d6.chunk.js.map",
-    "index.html": "/hooks-practice/index.html",
-    "static/css/main.161ba03c.chunk.css.map": "/hooks-practice/static/css/main.161ba03c.chunk.css.map",
-    "static/js/2.a741b2ea.chunk.js.LICENSE.txt": "/hooks-practice/static/js/2.a741b2ea.chunk.js.LICENSE.txt"
+    "main.css": "/revisions-react-hooks/static/css/main.161ba03c.chunk.css",
+    "main.js": "/revisions-react-hooks/static/js/main.ba358a77.chunk.js",
+    "main.js.map": "/revisions-react-hooks/static/js/main.ba358a77.chunk.js.map",
+    "runtime-main.js": "/revisions-react-hooks/static/js/runtime-main.ce2ffc4d.js",
+    "runtime-main.js.map": "/revisions-react-hooks/static/js/runtime-main.ce2ffc4d.js.map",
+    "static/js/2.a741b2ea.chunk.js": "/revisions-react-hooks/static/js/2.a741b2ea.chunk.js",
+    "static/js/2.a741b2ea.chunk.js.map": "/revisions-react-hooks/static/js/2.a741b2ea.chunk.js.map",
+    "static/js/3.2e12f3d6.chunk.js": "/revisions-react-hooks/static/js/3.2e12f3d6.chunk.js",
+    "static/js/3.2e12f3d6.chunk.js.map": "/revisions-react-hooks/static/js/3.2e12f3d6.chunk.js.map",
+    "index.html": "/revisions-react-hooks/index.html",
+    "static/css/main.161ba03c.chunk.css.map": "/revisions-react-hooks/static/css/main.161ba03c.chunk.css.map",
+    "static/js/2.a741b2ea.chunk.js.LICENSE.txt": "/revisions-react-hooks/static/js/2.a741b2ea.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab89730a.js",
+    "static/js/runtime-main.ce2ffc4d.js",
     "static/js/2.a741b2ea.chunk.js",
     "static/css/main.161ba03c.chunk.css",
     "static/js/main.ba358a77.chunk.js"
