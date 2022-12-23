@@ -1,20 +1,17 @@
 
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 
 class Clickme extends Component {
 
-  // variante on bind le this dans le constructeur
+  // constructor(props) {
+  //   super(props)
+  //   this.handleClick = this.handleClick.bind(this)
+  // }
 
-  constructor(props) {
-    super(props)
-    this.handleClick = this.handleClick.bind(this)
-  }
-
-
-  handleClick() {
+  // variante on passe par une fonction flechée ici : 
+  handleClick = () => {
     console.log(this.props.value)
-
   }
 
   render() {
