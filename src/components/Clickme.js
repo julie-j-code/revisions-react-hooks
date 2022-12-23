@@ -1,27 +1,30 @@
 
-import React from 'react';
+import React, {Component} from 'react';
 
 
-class Clickme extends React.Component {
+class Clickme extends Component {
 
-    
-    handleClick(){
-        console.log(this.props.value)
+  // variante on bind le this dans le constructeur
 
-    }
+  constructor(props) {
+    super(props)
+    this.handleClick = this.handleClick.bind(this)
+  }
 
-    render(){
 
-     return   <button onClick={this.handleClick.bind(this)}>{this.props.value}</button>
-    }
+  handleClick() {
+    console.log(this.props.value)
+
+  }
+
+  render() {
+
+    // return <button onClick={this.handleClick.bind(this)}>{this.props.value}</button>
+    return <button onClick={this.handleClick}>{this.props.value}</button>
+
+  }
 }
 
-  
-
-// ReactDOM.render(
-//     <Clickme value={1}/>,
-//     document.getElementById('main')
-// )
 
 
 export default Clickme;
