@@ -7,6 +7,7 @@ import Like from './components/Like';
 import Login from './components/Login';
 import PostList from './components/PostList';
 import Pot from './components/Pot';
+import Clickme from './components/Clickme';
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
         <Login />
         <p>7ème exemple : Application de côtisation pour un pot de départ</p>
         <Pot />
+        <p>Click Me class component</p>
+        <Clickme value={"value to display with bind(this)"}/>
       </main>
 
     </div>
